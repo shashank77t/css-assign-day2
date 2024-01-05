@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.card1{
+    width:650px;
+    border: 2px solid lightgray;
+    height: 600px;
+    padding: 12px 12px 0px 12px;
+    align-items: center;
+    border-radius: 15px;
+    margin: 60px auto;
+    position: relative;
+
+}
+img{
+    width: 650px;
+    height: 400px;
+    border-radius: 15px;
+}
+.card2{
+    position: relative;
+
+}
+.card3{
+    position: absolute;
+   top: 360px;
+    background-color: rgb(38, 38, 190);
+    color: aliceblue;
+    width: 260px;
+    align-items: center;
+    border-radius: 1px;
+    font-size: 14px;
+}
+h1{
+    margin: auto;
+}
+.time{
+    position: absolute;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    right: 30px;
+    top: 360px;
+    border-radius: 6px;
+    width: 80px;
+    
+}
+.time h2{
+    padding-left: 4px;
+    position: absolute;
+   margin: auto;
+}
+.cpr{
+    margin: 15px 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.north{
+    font-size: 25px;
+    color: rgb(118, 107, 107);
+}
+.bottom{
+    display: flex;
+    justify-content:space-evenly;
+    border-top: 2px solid lightgray;
+    
+}
+p{
+    background-color: aqua;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 3px;
+    padding-top: 2px;
+    /* transform: rotate(-45deg); */
+}
+.max{
+    color: black;
+    /* background: linear-gradient(to right,rgb(255, 254, 252),rgb(232, 220, 153),rgb(224, 192, 10)); */
+    box-shadow: inset 60px 0 120px  gold,inset -60px 0 120px white;
+    transform: rotateX(500deg);
+    transform-origin: bottom;
+    z-index: 20px;
+    letter-spacing: 1px;
+   
+}
+.del{
+    letter-spacing: 4px;
+    color:lightgoldenrodyellow;
+}
+h3{
+    color: rgb(118, 107, 107);
+}

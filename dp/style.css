@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+img{
+    width: 700px;
+    height: 300px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+   position: relative;
+
+}
+.container1{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    margin: 80px auto;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+}
+.container2{
+    position: relative;
+}
+.pic1 img{
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 205px;
+    left: 250px;
+   border: 5px solid white;
+   filter: grayscale(2);
+}
+.name{
+    position: absolute;
+    left: 200px;
+    top: 360px;
+    font-family: Roboto;
+    font-size: 22px;
+}
+.designation{
+    position: absolute;
+    left: 220px;
+    top: 420px;
+    font-size: 18px;
+    font-family: Roboto;
+    color: rgb(110, 97, 97);
+}
